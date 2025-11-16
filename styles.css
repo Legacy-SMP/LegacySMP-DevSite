@@ -42,22 +42,22 @@ p {
 
 .top-bar {
   background-color: #333;
-  height: 67px;
+  height: 57px;
   display: flex;
   align-items: center;
   position: relative;
-  padding-left: 20px;
+  padding-left: 11px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .top-bar nav {
   display: flex;
-  gap: 23px;
+  gap: 14px;
   z-index: 1;
 }
 
 .top-bar nav a {
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: white;
   font-family: "MCBold", monospace;
   text-decoration: none;

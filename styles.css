@@ -338,6 +338,13 @@ p {
     align-items: center;
 }
 
+.rule-img {
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+    object-fit: cover;
+    background: #00000033;
+
 .rule-card {
     transition: transform 0.25s ease;
 }

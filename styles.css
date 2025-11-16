@@ -250,3 +250,54 @@ p {
     font-family: 'MCBold', sans-serif;
 }
 
+.staff-section {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 40px auto;
+    width: 80%;
+    max-width: 900px;
+}
+
+/* Main staff card */
+.staff-card {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    background: #1d3fa0;
+    border: 2px solid #000;
+    box-shadow: inset 0 0 0 2px rgba(255,255,255,0.2);
+    align-items: center;
+}
+
+/* Opposite direction (image on right) */
+.staff-card.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Staff images */
+.staff-img {
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+    object-fit: cover;
+    background: #00000033;
+}
+
+/* Text area */
+.staff-info h2 {
+    font-family: 'MCBold', sans-serif;
+    margin: 0 0 5px 0;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.staff-info p {
+    font-family: 'MCRegular', sans-serif;
+    margin: 0;
+    font-size: 1rem;
+    color: white;
+    line-height: 1.3;
+}
+
+

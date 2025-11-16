@@ -317,6 +317,16 @@ p {
     align-items: center;
 }
 
+.staff-card {
+    transition: transform 0.25s ease;
+}
+
+.staff-card:hover {
+    transform: translateY(-6px) scale(1.05);
+}
+
+
+
 /* Opposite direction (image on right) */
 .staff-card.reverse {
     flex-direction: row-reverse;

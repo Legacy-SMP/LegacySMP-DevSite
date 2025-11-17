@@ -33,7 +33,15 @@ body {
 
 h1 {
     color: white;
-    text-align: left;
+    text-align: center;
+    font-family: "MCBold", sans-serif;
+    margin: 10px 0;
+    text-shadow: 3px 3px rgba(63,63,63,1)
+}
+
+h3 {
+    color: white;
+    text-align: center;
     font-family: "MCBold", sans-serif;
     margin: 10px 0;
     text-shadow: 2px 2px rgba(63,63,63,1)
@@ -42,7 +50,7 @@ h1 {
 p {
     font-family: "MCRegular", monospace;
     font-size: 20px;
-    text-align: left;
+    text-align: center;
     margin: 5px 0;
     color: white;
     text-shadow: 2px 2px rgba(63,63,63,1)

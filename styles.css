@@ -26,15 +26,25 @@ body {
 }
 
 .rule-page {
-    background: url("images/ruleicon_test.png");
-    background-size: cover;
+    background: cp;;
     background-repeat: no-repeat;
+    background-position: center;
 }
+
+
 
 h1 {
     color: white;
     text-align: center;
     font-family: "MCBold", sans-serif;
+    margin: 10px 0;
+    text-shadow: 3px 3px rgba(63,63,63,1)
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: "MCBoldItalic", sans-serif;
     margin: 10px 0;
     text-shadow: 3px 3px rgba(63,63,63,1)
 }
@@ -379,6 +389,19 @@ p {
     align-items: center;
 }
 
+.join-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background: #9d9d9d;
+    box-shadow:
+        inset -4px -4px #ffffff,
+        inset 4px 4px #3e3e3e;
+    text-align: center;
+}
+
+
 .rule-info h2 {
     font-family: "MCBold", sans-serif;
     margin: 0 0 5px 0;
@@ -388,11 +411,8 @@ p {
 }
 
 .rule-img {
-    width: 120px;
-    height: 120px;
-    border: 2px solid black;
-    object-fit: cover;
-    background: #00000033;
+    width: 100px;
+    height: 100px;
 }
 
 .rule-card {
@@ -489,4 +509,19 @@ p {
 
 .side-btn.right img {
     transform: scaleX(-1);
+}
+.rule-info {
+
+}
+
+.image-join {
+    width: 500px;
+    height: 500px;
+    border: 4px solid #0006;
+}
+
+.image-join-console {
+    width: 900px;
+    height: 500px;
+    border: 4px solid #0006;
 }
